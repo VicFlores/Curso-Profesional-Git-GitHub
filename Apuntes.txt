@@ -1,0 +1,66 @@
+Crear una llave ssh (todo comando se hace desde la carpeta /home)
+
+-------------------------------------------------------------------------------
+
+1) Se crea la llave ssh con los protocolos de seguridad
+
+ssh-keygen -t rsa -b 4096 -C "vicsito2014@gmail.com"
+
+// -t rsa = Algoritmo matematico a utilizar
+// -b 4096 = La dificultad matematica
+// -C = correo de la plataforma a subir el proyecto
+
+-------------------------------------------------------------------------------
+
+2) Una vez creada la llave, se agrega a nuestro entorno de trabajo (la llave privida)
+
+ssh-add /home/vicflores11/.ssh/id_rsa
+
+-------------------------------------------------------------------------------
+
+Comando que evalua y verifica las llaves ssh (verificar si realmente esta corriendo)
+
+eval $(ssh-agent -s)
+
+-------------------------------------------------------------------------------
+
+id_rsa = llave privada
+id_rsa.pub = llave publica
+
+-------------------------------------------------------------------------------
+
+Conectar mi proyecto local a GitHub
+
+git remote add origin -link de mi repositorio-
+
+-------------------------------------------------------------------------------
+
+Crear alias para comandos largos
+
+alias -nombre del alias- = "-comando al que se le agregara el alias"
+
+-------------------------------------------------------------------------------
+
+Crear un tag
+
+git tag -a v0.1 -m "Mensaje del tag" -hash u codigo del tag-
+
+-------------------------------------------------------------------------------
+
+Subir un tag al repositorio
+
+git push origin --tags
+
+-------------------------------------------------------------------------------
+
+Eliminar un tag de forma local (pero no elimina la referencia en el repositorio)
+
+git tag -d -nombre del tag
+
+-------------------------------------------------------------------------------
+
+Eliminar referencia del tag en el repositorio
+
+git push origin :refs/tags/-nombre del tag-
+
+-------------------------------------------------------------------------------
