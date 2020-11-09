@@ -34,3 +34,7 @@ id_rsa.pub = llave publica
 Conectar mi proyecto local a GitHub
 
 git remote add origin -link de mi repositorio-
+
+Crear alias para comandos largos
+
+alias -nombre del alias- = "-comando al que se le agregara el alias"
