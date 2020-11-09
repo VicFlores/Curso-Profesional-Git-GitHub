@@ -43,3 +43,9 @@ body {
   padding: 1rem;
 }
 
+.footer {
+
+  background-color: burlywood;
+  text-align: center;
+  padding: 0.5rem;
+}
