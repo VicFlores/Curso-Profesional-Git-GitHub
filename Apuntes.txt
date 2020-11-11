@@ -79,7 +79,7 @@ git stash
 
 -------------------------------------------------------------------------------
 
-Se utliza para eliminar los cambios en el aire que hice
+Se utliza para borrar los cambios en el aire que hice
 
 git stash drop
 
@@ -104,6 +104,22 @@ git stash branch -nombre de la rama-
 
 -------------------------------------------------------------------------------
 
+Se utliza para ver una vista previa a los archivos innecesarios a borrar
+
+git clean --dry-run
+
+-------------------------------------------------------------------------------
+
+Se utliza para borrar archivos innecesarios
+
+git clean -f
+
+-------------------------------------------------------------------------------
+
 Se utliza para traer un commit en especifico a la rama que quiero
 
 git cherry-pick -hash commit-
+
+-------------------------------------------------------------------------------
+
+
