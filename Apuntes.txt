@@ -79,6 +79,12 @@ git stash
 
 -------------------------------------------------------------------------------
 
+Se utliza para eliminar los cambios en el aire que hice
+
+git stash drop
+
+-------------------------------------------------------------------------------
+
 Se utiliza para regresarme a los cambios en el aire del codigo que hice
 y poderlos visualizar
 
@@ -94,6 +100,10 @@ git stash list
 
 Se utiliza luego de haber guardado cambios en el aire del codigo, crear una rama y guardarlos ahi
 
-git stashbranch -nombre de la rama-
+git stash branch -nombre de la rama-
 
 -------------------------------------------------------------------------------
+
+Se utliza para traer un commit en especifico a la rama que quiero
+
+git cherry-pick -hash commit-
