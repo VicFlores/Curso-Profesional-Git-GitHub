@@ -79,6 +79,12 @@ git stash
 
 -------------------------------------------------------------------------------
 
+Se utliza para borrar los cambios en el aire que hice
+
+git stash drop
+
+-------------------------------------------------------------------------------
+
 Se utiliza para regresarme a los cambios en el aire del codigo que hice
 y poderlos visualizar
 
@@ -97,3 +103,13 @@ Se utiliza luego de haber guardado cambios en el aire del codigo, crear una rama
 git stashbranch -nombre de la rama-
 
 -------------------------------------------------------------------------------
+
+Se utliza para ver una vista previa a los archivos innecesarios a borrar
+
+git clean --dry-run
+
+-------------------------------------------------------------------------------
+
+Se utliza para boorar archivos innecesarios
+
+git clean -f
