@@ -122,4 +122,12 @@ git cherry-pick -hash commit-
 
 -------------------------------------------------------------------------------
 
+Se utliza para ver una vista previa a los archivos innecesarios a borrar
 
+git clean --dry-run
+
+-------------------------------------------------------------------------------
+
+Se utliza para boorar archivos innecesarios
+
+git clean -f
