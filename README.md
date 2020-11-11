@@ -4,4 +4,4 @@
 
 ##### He aprendido la manera correcta de utilizar Git y Github con nuevos conocimientos y buenas practicas para utilizarlo en mis proyectos.
 
-##### Casi termino el curso
+##### Casi termino el curso, luego al finalizar realizare un examen
