@@ -64,3 +64,36 @@ Eliminar referencia del tag en el repositorio
 git push origin :refs/tags/-nombre del tag-
 
 -------------------------------------------------------------------------------
+
+Se utiliza para hacer cambios en tre ramas de forma silenciosa, ya que modfica la
+historia del proyecto
+
+git rebase
+
+-------------------------------------------------------------------------------
+
+Se utiliza para guardar cambios en el aire del codigo 
+y luego me regresa a como estaba antes
+
+git stash
+
+-------------------------------------------------------------------------------
+
+Se utiliza para regresarme a los cambios en el aire del codigo que hice
+y poderlos visualizar
+
+git stash pop
+
+-------------------------------------------------------------------------------
+
+Se utlizar para ver que cambios tengo en el aire
+
+git stash list
+
+-------------------------------------------------------------------------------
+
+Se utiliza luego de haber guardado cambios en el aire del codigo, crear una rama y guardarlos ahi
+
+git stashbranch -nombre de la rama-
+
+-------------------------------------------------------------------------------
